@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js DOM</title>
+</head>
+<body >
+<div class="doingCenter">
+	<h1>Shopping List</h1>
+	<p id = "first"><strong>Basic Guide:</strong></p>
+	<p class = "second">click on task to ensure it is done<br> add new tasks to your list <br> delete the task which you don't want </p>
+	<div class="doingCenter">
+	<input id="userInput" type="text"  placeholder = "enter items" >
+	<button id= "enter">enter</button>
+	<ul>
+
+		<li random="23", wik="23">NoteBook<button class="delete">delete</button></li>
+		<li>jello <button class="delete">delete</button></li>
+		<li>Spinach <button class="delete">delete</button></li>
+		<li>Rice <button class="delete">delete</button></li>
+		<li>Birthday <button class="delete">delete</button></li>
+		<li>Candles  <button class="delete">delete</button></li>
+	</ul>
+ </div>
+</div>
+<style type="text/css">
+
+	.hola  {  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey}
+
+.done{
+	text-decoration: line-through;
+}
+
+ul{
+	cursor: pointer;
+}
+
+body{
+	 background-image: linear-gradient(to right, rgb(255, 5, 226), rgb(78, 42, 207));
+}
+
+.doingCenter{
+
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+
+}
+#enter{
+	 background-color: #4CAF50; /* Green */
+  border: 2px bold black;
+  color: white;
+  padding: 5px 5px;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s; font-stretch: expanded;
+
+}
+#enter:hover{
+	color:black;
+	background-color: white;
+}
+.delete{
+	 background-color: red; /* Green */
+  border: 2px bold black;
+
+  color: white;
+  padding: 5px 5px;
+  text-align: right;
+  text-decoration: blink;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+   font-stretch: expanded;
+}
+.delete:hover{
+	color: black;
+	background-color: white;
+}
+</style>
+
+
+
+<script type="text/javascript" src="todoLIST.js"></script>
+</body>
+</html>
